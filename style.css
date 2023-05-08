@@ -121,24 +121,37 @@ body{
 #paragraph-first{
     border: none;
 }
-.previews{
+/* .previews{
     display: flex;
     grid-column: 1/4;
     grid-row: 2/3;
     gap: 10px;
     justify-content: space-between;
     height: fit-content;
-}
+} */
 .preview{
     height: fit-content;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    width: fit-content;
 }
 .preview img{
     width: 100px;
-    height:100px;
+    height:90px;
+}
+.preview-one{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.preview-two{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.preview-three{
+    grid-column: 3/4;
+    grid-row: 2/3;
 }
 .number{
     opacity: 0.5;
